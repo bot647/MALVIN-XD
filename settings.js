@@ -6,13 +6,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "malvin~AmdAFbhZ#4Dy23h6ylKiHM76mbaCwg09bSaVIV4keo4cZam03cBE",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 LINK_WHITELIST: "youtube.com,github.com",
@@ -68,10 +68,10 @@ LINK_WHITELIST: "youtube.com,github.com",
           DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "26371475XXXX",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "918910051810",
 // add your bot owner number
 
-OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
+OWNER_NAME: process.env.OWNER_NAME || "ＤＡＲＫ⚔ＫＩＬＬＥＲ",
 // add bot owner name
 
               DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ ᴋɪɴɢ*",
@@ -80,9 +80,9 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 
-                 AUTO_REACT: process.env.AUTO_REACT || "false",
+                 AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
-                ANTI_BAD: process.env.ANTI_BAD || "false",
+                ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 
             ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
