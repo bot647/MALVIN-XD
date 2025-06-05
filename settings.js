@@ -85,7 +85,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ＤＡＲＫ⚔ＫＩＬＬＥＲ",
                 ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 
-            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 
             AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -109,7 +109,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ＤＡＲＫ⚔ＫＩＬＬＥＲ",
    READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-     DEV: process.env.DEV || "263780166288",
+     DEV: process.env.DEV || "918910051810",
 //replace with your whatsapp number    
     
     ANTI_VV: process.env.ANTI_VV || "true",
